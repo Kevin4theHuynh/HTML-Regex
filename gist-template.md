@@ -38,7 +38,7 @@ The number behind the foward slash is not limited to 1 this could go up to as hi
 Negated set: Will select any letter character that is not in the set string 
 Ex: [^eo]
 Ex: Hello world! I enjoy eating food
-This will include H,L,W,R,D,J,N,O,F,I,F
+This will include H, L, W, R, D, J, N, O, F, I, F
 
 ### The OR Operator
 
@@ -66,4 +66,4 @@ This will not pass
 
 ## Author
  My name is Khoa Huynh but I go by Kevin with friends and co-workers. I was originally an English major in college but found a higher interest in coding. 
- [Link]: https://github.com/Kevin4theHuynh
+ `[Link]:` https://github.com/Kevin4theHuynh
