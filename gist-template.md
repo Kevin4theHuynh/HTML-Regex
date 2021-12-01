@@ -39,8 +39,25 @@ This will include H,L,W,R,D,J,N,O,F,I,F
 ### The OR Operator
 
 ### Flags
+The multiline anchor matches the beginning and the end of a line. With the pattern `[/^\d/gm]`
+
+Ex: Const str = `Sally ate food`
+`Billy Sleeping`
+`Kevin is coding`
+`console.log( str.match(/^\d/gm)` // S, B, K
+
+This also works with the $
+Ex:`[/\d$gm]`
+
+Without the m and $ the whole text will be matched.
 
 ### Character Escapes
+Octal matches a character in the sequence with the same value that is passed in. This includes numbers that are single digit, double digit, or triple digit. However this will not work if the number is 000 also the value must be less than /251. This is passed with the special character ©
+Ex: `[/252]` this number and anything higher will not work
+Ex: `Currently I am ©21 years old`
+This will pass
+Ex2: `Currently I am ©252 years old` 
+This will not pass
 
 ## Author
 
