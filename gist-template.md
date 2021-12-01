@@ -65,5 +65,5 @@ Ex2: `Currently I am ©252 years old`
 This will not pass
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+ My name is Khoa Huynh but I go by Kevin with friends and co-workers. I was originally an English major in college but found a higher interest in coding. 
+ [Link]: https://github.com/Kevin4theHuynh
