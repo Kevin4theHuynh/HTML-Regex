@@ -27,6 +27,10 @@ With Anchors in HTML tags they match position by string not by chracter
 ### Quantifiers
 
 ### Grouping Constructs
+Matching a pair of opening and closing HTML tags, and the text between has become easier by using parentheses and some text inside. The first backslash matches the first captured group and the second backslash will match the exact text that was referenced by the first backslash.
+Ex. `([j-l]x1x/1)`
+This will match `jxjxj`, `kxkxk`, `lxlxl`
+The number behind the foward slash is not limited to 1 this could go up to as high as 99 
 
 ### Bracket Expressions
 
@@ -56,6 +60,7 @@ Octal matches a character in the sequence with the same value that is passed in.
 Ex: `[/252]` this number and anything higher will not work
 Ex: `Currently I am ©21 years old`
 This will pass
+
 Ex2: `Currently I am ©252 years old` 
 This will not pass
 
